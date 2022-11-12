@@ -1,0 +1,48 @@
+aside,
+header,
+section{
+    display: block;
+}
+
+header,
+section,
+aside{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 800px;
+
+    margin: 2em auto;
+}
+header{
+    border-bottom: #800000;
+    padding: 15px 15px;
+    background-image: -webkit-linear-gradient(
+        30deg,
+        pink 20%,
+        white 50%,
+        pink 65%
+    );
+    background-image: -moz-linear-gradient(30deg, pink 65%, white 50%, pink 65%);
+    background-image: -IE-linear-gradient(30deg, pink 65%, white 50%, pink 65%);
+}
+header img{
+    float: left;
+    padding: 15px;
+}
+section{
+    float: left;
+    width: 450px;
+    padding-left: 15px;
+    text-align: justify;
+    
+}
+section img{
+    float: left;
+    padding: 5px 5px 0 0;
+}
+ aside{
+    float: right;
+    width: 250px;
+} 
